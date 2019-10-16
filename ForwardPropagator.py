@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 #######################################################################################
 #
 #	Copyright (c) 2018, Wiphoo (Terng) Methachawalit, All rights reserved.
