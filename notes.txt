@@ -1,1 +1,6 @@
-#	2018-06-20  
+#	2019-10-16
+#       build wheel package
+python3 setup.py sdist bdist_wheel
+
+#       upload to PyPI
+twine upload dist/{{PACKAGE}}
