@@ -1,11 +1,13 @@
 import setuptools
 
 setuptools.setup( name = 'simpleperceptron',  
-                    version = '0.1.0',
+                    version = '0.1.1',
                     author = 'Wiphoo Methachawalit',\
                     description = 'A simple percepton package for understanding neural network concept',
                     url = "https://github.com/wiphoo/neural-simple_perceptron",
-                    packages = setuptools.find_packages(),
+                    packages = [ 
+                                   'simpleperceptron',
+                    ],
                     install_requires = [ 
                                         'numpy',
                     ],
